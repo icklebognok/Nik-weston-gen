@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nik Weston Generator</title>
+</head>
+
+<body>
+	<div style="padding: 50px;">
+		<h1>Nik Weston Generator</h1>
+		I accidentally <p id="partA"></p> while <p id="partB"></p>
+		<button onclick="activate()">Button</button>
+	</div>
+</body>
+</html>
+<script>
+
+	function randeffect(a){
+		var x = Math.floor(Math.random()*a);
+		switch(x){
+			case 0:
+				document.getElementById("partA").innerHTML = "broke a bone";
+				break;
+			case 1:
+				document.getElementById("partA").innerHTML = "reclaimed the holy land";
+				break;
+			case 2:
+				document.getElementById("partA").innerHTML = "started ragnarok";
+				break;
+			case 3:
+				document.getElementById("partA").innerHTML = "made a sandwich";
+				break;
+			case 4: 
+				document.getElementById("partA").innerHTML = "found r'lyeh";
+				break;
+			case 5:
+				document.getElementById("partA").innerHTML = "found out i'm a replicant";
+				break;
+			case 6:
+				document.getElementById("partA").innerHTML = "established communism";
+				break;
+			case 7:
+				document.getElementById("partA").innerHTML = "overthrew the romanovs";
+				break;
+			case 8:
+				document.getElementById("partA").innerHTML = "enjoyed infinity war";
+				break;
+			case 9:
+				document.getElementById("partA").innerHTML = "got a mountain thrown on top of me";
+				break;
+				
+		}
+	}
+	function randcause(b){
+		var y = Math.floor(Math.random()*b);
+		switch(y){
+			case 0:
+				document.getElementById("partB").innerHTML = "gluing a cat and a dog together";
+				break;
+			case 1:
+				document.getElementById("partB").innerHTML = "eradicating the nazis";
+				break;
+			case 2:
+				document.getElementById("partB").innerHTML = "kidnapping Tripitaka";
+				break;
+			case 3:
+				document.getElementById("partB").innerHTML = "trying to prove that Roman mythos isn't a copy and paste of greek mythos with a few OCs";
+				break;
+			case 4: 
+				document.getElementById("partB").innerHTML = "becoming the newest avatar of vishnu";
+				break;
+			case 5:
+				document.getElementById("partB").innerHTML = "kneeling before zod";
+				break;
+			case 6:
+				document.getElementById("partB").innerHTML = "trying to purchase superhuman babies";
+				break;
+			case 7:
+				document.getElementById("partB").innerHTML = "going for that victory royale";
+				break;
+			case 8:
+				document.getElementById("partB").innerHTML = "trying to find a oddly specific way of saying 'humans'";
+				break;
+			case 9:
+				document.getElementById("partB").innerHTML = "creating my fursona";
+				break;
+				
+		}
+	}
+	function activate(){
+		
+		
+		randeffect(9);
+		randcause(9);
+	}
+
+</script>
